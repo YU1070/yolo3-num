@@ -66,12 +66,12 @@ def checkOverlap(rectangles,b):
 #随机位置生成图片
 def transparentOverlay(path):
     bgImg = cv2.imread(path, -1)
-    src = cv2.resize(bgImg, (416,416))
-    rows, cols, _ = src.shape  # 背景图
+    target = cv2.resize(bgImg, (416,416))
+    rows, cols, _ = target.shape  # 背景图
     rectangles = []
     label = ' '
     for i in range(0,10):
-        index = np.random.randint(1,53)
+        index = np.random.randint(1,10)
         pukeimg = cv2.imread('./num/'+str(index)+'.jpg', -1)
         overlay = random_augment(pukeimg)
         h, w, _ = overlay.shape  # 扑克牌
@@ -87,29 +87,29 @@ def transparentOverlay(path):
         upperb = (77, 255, 255)
         dst = cv2.inRange(hsv, lowerb, upperb)
         overlay[dst == 255] = (0, 0, 0)
-        color = src[x:x + h, y:y + w]
+        color = target[x:x + h, y:y + w]
         color[dst != 255] = (0, 0, 0)
-        src = color + src
+        img = color + overlay
         # 图像合并
-        for i in range(h):
-            for j in range(w):
+        for i in range(img.shape[0]):
+            for j in range(img.shape[1]):
                 if x + i >= rows or y + j >= cols:
                     continue
                 if  (hsv[i][j][0:1]>36 and hsv[i][j][1:2]>25  and hsv[i][j][2:3]>25 and hsv[i][j][0:1]<70):
                     continue
-                src[x + i][y + j] = overlay[i][j][:3]
+                target[x + i][y + j] = img[i][j][:3]
 #        cv2.rectangle(src, (y, x), (y+w,x+h), (255, 0, 0), 1)
 #         print("{},{},{},{},{} ".format(y, x, y+w,x+h,index) )
         rectangles.append((y, x, y+w,x+h))
         label += "{},{},{},{},{} ".format(y, x, y+w,x+h,index-1) 
 #     print(label)
-    return src,label
+    return target,label
 
 
 def generateImage():
    
          
-    rootdir = './texture'
+    rootdir = './data/texture'
     list = os.listdir(rootdir) #列出文件夹下所有的目录与文件
     with open("./data/dataset/test.txt", "w") as wf: 
         for i in range(0,2000):
