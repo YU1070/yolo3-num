@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ab1bbf0-f2e1-49ec-b180-e2af0be5b595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/video_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo3-num" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dataset/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dataset/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.generate_train">
     <configuration name="generate_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="yolo-num" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,9 +67,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generate_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolo-num" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolo-num" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolo-num" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="video_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolo-num" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_train" />
+        <item itemvalue="Python.video_demo" />
         <item itemvalue="Python.generate_test" />
+        <item itemvalue="Python.image_demo" />
+        <item itemvalue="Python.train" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +174,10 @@
       <workItem from="1592187176322" duration="2393000" />
       <workItem from="1592193602979" duration="14000" />
       <workItem from="1592197779037" duration="9332000" />
+      <workItem from="1592231343445" duration="613000" />
+      <workItem from="1592240355216" duration="804000" />
+      <workItem from="1592279475017" duration="382000" />
+      <workItem from="1592280368163" duration="3183000" />
     </task>
     <servers />
   </component>
@@ -92,29 +185,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="282" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592208575675">
+    <state x="743" y="282" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592279690928">
       <screen x="0" y="27" width="1920" height="996" />
     </state>
-    <state x="743" y="282" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.996@0.27.1920.996" timestamp="1592208575675" />
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom" timestamp="1592198999605">
+    <state x="743" y="282" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.996@0.27.1920.996" timestamp="1592279690928" />
+    <state width="1874" height="160" key="GridCell.Tab.0.bottom" timestamp="1592286849195">
       <screen x="0" y="27" width="1920" height="996" />
     </state>
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom/0.27.1920.996@0.27.1920.996" timestamp="1592198999605" />
-    <state width="1874" height="248" key="GridCell.Tab.0.center" timestamp="1592198999604">
+    <state width="1874" height="160" key="GridCell.Tab.0.bottom/0.27.1920.996@0.27.1920.996" timestamp="1592286849195" />
+    <state width="1874" height="160" key="GridCell.Tab.0.center" timestamp="1592286849195">
       <screen x="0" y="27" width="1920" height="996" />
     </state>
-    <state width="1874" height="248" key="GridCell.Tab.0.center/0.27.1920.996@0.27.1920.996" timestamp="1592198999604" />
-    <state width="1874" height="248" key="GridCell.Tab.0.left" timestamp="1592198999603">
+    <state width="1874" height="160" key="GridCell.Tab.0.center/0.27.1920.996@0.27.1920.996" timestamp="1592286849195" />
+    <state width="1874" height="160" key="GridCell.Tab.0.left" timestamp="1592286849194">
       <screen x="0" y="27" width="1920" height="996" />
     </state>
-    <state width="1874" height="248" key="GridCell.Tab.0.left/0.27.1920.996@0.27.1920.996" timestamp="1592198999603" />
-    <state width="1874" height="248" key="GridCell.Tab.0.right" timestamp="1592198999605">
+    <state width="1874" height="160" key="GridCell.Tab.0.left/0.27.1920.996@0.27.1920.996" timestamp="1592286849194" />
+    <state width="1874" height="160" key="GridCell.Tab.0.right" timestamp="1592286849195">
       <screen x="0" y="27" width="1920" height="996" />
     </state>
-    <state width="1874" height="248" key="GridCell.Tab.0.right/0.27.1920.996@0.27.1920.996" timestamp="1592198999605" />
-    <state x="891" y="159" key="SettingsEditor" timestamp="1592187252102">
+    <state width="1874" height="160" key="GridCell.Tab.0.right/0.27.1920.996@0.27.1920.996" timestamp="1592286849195" />
+    <state x="891" y="159" key="SettingsEditor" timestamp="1592280661775">
       <screen x="0" y="27" width="1920" height="996" />
     </state>
-    <state x="891" y="159" key="SettingsEditor/0.27.1920.996@0.27.1920.996" timestamp="1592187252102" />
+    <state x="891" y="159" key="SettingsEditor/0.27.1920.996@0.27.1920.996" timestamp="1592280661775" />
   </component>
 </project>
